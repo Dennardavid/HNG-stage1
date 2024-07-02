@@ -15,7 +15,6 @@ body {
   background-color: var(--bg-color);
   font-family: "Poppins", sans-serif;
   font-style: normal;
-  height: 100dvh;
 }
 .nav {
   background-color: var(--primary-color);
@@ -29,7 +28,7 @@ footer a {
   font-optical-sizing: auto;
   font-style: normal;
   font-weight: 900;
-  font-size: 30px;
+  font-size: 25px;
   color: var(--sec-color);
 }
 .hero-section {
@@ -84,7 +83,7 @@ img {
 .goals p {
   color: var(--primary-color);
   font-size: 17px;
-  width: 50%;
+  width: 70%;
   text-align: center;
 }
 .achieve {
@@ -140,6 +139,37 @@ img {
   color: var(--white);
 }
 
+@media screen and (max-width: 900px) {
+  .intro {
+    margin-bottom: 20px;
+  }
+  .me {
+    font-size: 16px;
+  }
+  .intro h1 {
+    font-size: 40px;
+  }
+  .role {
+    font-size: 16px;
+    padding: 10px 40px 10px 40px;
+  }
+  .goals h2 {
+    font-size: 30px;
+  }
+  .goals p {
+    font-size: 16px;
+    width: 80%;
+  }
+
+  .achieve article {
+    padding: 20px;
+    width: 100%;
+  }
+  .achieve article li {
+    font-size: 16px;
+  }
+}
+
 @media screen and (max-width: 700px) {
   .nav a,
   footer a {
@@ -164,7 +194,6 @@ img {
     text-align: center;
   }
   .goals h2 {
-    font-weight: 800;
     font-size: 25px;
   }
   .goals p {
