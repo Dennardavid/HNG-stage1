@@ -15,6 +15,7 @@ body {
   background-color: var(--bg-color);
   font-family: "Poppins", sans-serif;
   font-style: normal;
+  height: 100dvh;
 }
 .nav {
   background-color: var(--primary-color);
