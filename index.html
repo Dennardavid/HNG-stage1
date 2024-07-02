@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ojuju:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>HNG journey</title>
+  </head>
+  <body>
+    <header>
+      <nav class="nav">
+        <a href="/">DOUBLED</a>
+      </nav>
+    </header>
+    <main>
+      <section class="hero-section">
+        <div class="intro">
+          <p class="me">My name is</p>
+          <h1 data-testid="slackDisplayName">Dennar David</h1>
+          <p class="role">I am a frontend developer</p>
+        </div>
+        <div>
+          <img
+            src="/assets/softboy.jpg"
+            alt="Dennar David"
+            data-testid="slackProfilePicture"
+          />
+        </div>
+      </section>
+
+      <section class="goals">
+        <h2>2 years tech goal</h2>
+        <p>
+          First I must say that this project was inspired by HNG. If you wish to
+          improve your tech skill here is a good place to start
+          <a href="http://hng.tech/learn" data-testid="hngLink" class="links"
+            >Learn from HNG</a
+          >
+          checkout this cool
+          <a
+            href="https://scrapeanyweb.site/"
+            data-testid="scrapeanywebLink"
+            class="links"
+            >webscrapping</a
+          >
+          site. You may also find this
+          <a href="https://keyword.dog/" data-testid="keywordLink" class="links"
+            >SEO website</a
+          >
+          interesting.
+        </p>
+        <div class="achieve">
+          <article>
+            <h3>Year 1</h3>
+            <ul>
+              <li>Complete course with Altschool Africa</li>
+              <li>Become a HNG11 finalist</li>
+              <li>Improve on frontend skill by building for projects</li>
+              <li>Prepare for jobs through moc interviews</li>
+              <li>Advertise myself more</li>
+            </ul>
+          </article>
+          <article>
+            <h3>Year 2</h3>
+            <ul>
+              <li>Get a frontend developer Role job</li>
+              <li>Start freelancing, man needs some comfort</li>
+              <li>Start learning Mobile development</li>
+              <li>Start gathering team for my start up (Elon Musk ways!)</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <a href="/">DOUBLED</a>
+      <div class="mail">
+        <img src="assets/mail.png" alt="mail" />
+        <p data-testid="slackEmail" class="mail">dennardavid@gmail.com</p>
+      </div>
+
+      <div class="date">
+        <img src="assets/calendar.png" alt="calendar" />
+        <p class="day" data-testid="currentDay"></p>
+        <p class="time" data-testid="currentTimeUTC"></p>
+      </div>
+    </footer>
+  </body>
+  <script src="index.js"></script>
+</html>

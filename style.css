@@ -1,0 +1,138 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+:root {
+  --bg-color: #e3e3e3;
+  --white: #fff;
+  --primary-color: #013440;
+  --sub-color: rgba(240, 83, 35, 0.5);
+  --boxes: #efd9b4;
+  --sec-color: #f05323;
+}
+body {
+  background-color: var(--bg-color);
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+}
+.nav {
+  background-color: var(--primary-color);
+  padding: 20px;
+  text-align: center;
+}
+.nav a,
+footer a {
+  text-decoration: none;
+  font-family: "Ojuju", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 30px;
+  color: var(--sec-color);
+}
+.hero-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+  gap: 30%;
+}
+.me {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  color: var(--primary-color);
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: -15px;
+}
+.intro h1 {
+  font-family: "Ojuju", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 60px;
+  margin-bottom: 5px;
+  color: var(--sec-color);
+}
+.role {
+  color: var(--white);
+  background-color: var(--primary-color);
+  padding: 10px 50px 10px 50px;
+  text-align: center;
+}
+img {
+  box-shadow: 2px 7px 20px var(--primary-color);
+}
+.goals {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--sub-color);
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+}
+.goals h2 {
+  font-family: "Ojuju", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  color: var(--white);
+}
+.goals p {
+  color: var(--primary-color);
+  font-size: 17px;
+  width: 50%;
+  text-align: center;
+}
+.achieve {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  gap: 5%;
+  width: 100%;
+}
+.links {
+  color: var(--sec-color);
+}
+.achieve article {
+  background-color: var(--boxes);
+  padding: 20px;
+  width: 40%;
+  border-radius: 7px;
+  border: 1px solid var(--primary-color);
+  box-shadow: 0 3px 2px #00000080, 0 0 5px #00000030;
+}
+.achieve article h3 {
+  text-align: center;
+  font-family: "Ojuju", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  color: var(--sec-color);
+  font-size: 22px;
+  text-decoration: underline;
+  margin-bottom: 20px;
+}
+.achieve article li {
+  background-image: url(assets/pngwing.com.png);
+  background-repeat: no-repeat;
+  line-height: 30px;
+  padding-left: 30px;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+}
+.footer {
+  background-color: var(--primary-color);
+  padding: 20px 30px 20px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.date,
+.mail {
+  display: flex;
+  gap: 10px;
+  color: var(--white);
+}
