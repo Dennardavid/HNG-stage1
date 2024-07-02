@@ -130,9 +130,67 @@ img {
   justify-content: space-between;
   align-items: center;
 }
-.date,
-.mail {
+.date {
   display: flex;
   gap: 10px;
   color: var(--white);
+}
+.mail {
+  color: var(--white);
+}
+
+@media screen and (max-width: 700px) {
+  .nav a,
+  footer a {
+    font-size: 20px;
+  }
+  .hero-section {
+    flex-direction: column;
+    text-align: center;
+  }
+  .intro {
+    margin-bottom: 20px;
+  }
+  .me {
+    font-size: 14px;
+  }
+  .intro h1 {
+    font-size: 30px;
+  }
+  .role {
+    font-size: 14px;
+    padding: 10px 40px 10px 40px;
+    text-align: center;
+  }
+  .goals h2 {
+    font-weight: 800;
+    font-size: 25px;
+  }
+  .goals p {
+    font-size: 14px;
+    width: 100%;
+  }
+  .achieve {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+  }
+
+  .achieve article {
+    padding: 20px;
+    width: 100%;
+  }
+  .achieve article li {
+    font-size: 14px;
+  }
+  .footer {
+    padding: 15px 30px 15px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  .date {
+    font-size: 14px;
+  }
 }
